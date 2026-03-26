@@ -122,10 +122,10 @@ TextureImporter:
       name: ui sprite card
       rect:
         serializedVersion: 2
-        x: 181
-        y: 936
-        width: 118
-        height: 68
+        x: 164
+        y: 865
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,10 +144,10 @@ TextureImporter:
       name: ui sprite key
       rect:
         serializedVersion: 2
-        x: 324
-        y: 927
-        width: 121
-        height: 81
+        x: 313
+        y: 866
+        width: 150
+        height: 150
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
