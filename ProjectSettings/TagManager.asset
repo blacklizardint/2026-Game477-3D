@@ -9,6 +9,7 @@ TagManager:
   - handle
   - number card
   - key
+  - Clickable
   layers:
   - Default
   - TransparentFX
