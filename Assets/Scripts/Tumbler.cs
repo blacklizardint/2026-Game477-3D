@@ -97,14 +97,16 @@ public class Tumbler : MonoBehaviour {
     curRot = transform.rotation;
     targetRot = curRot * Quaternion.Euler(Vector3.up * (360 / numberOfSides));
     t = 0;
+    SoundManager.Play(SoundType.TUMBLE);
     tumblingCoroutine = StartCoroutine(Tumble());
   }
   private void StateEnter_TumblingDown() {
     curRot = transform.rotation;
     targetRot = curRot * Quaternion.Euler(Vector3.down * (360 / numberOfSides));
     t = 0;
-    StopCoroutine(tumblingCoroutine);
-    StopAllCoroutines();
+    SoundManager.Play(SoundType.TUMBLE);
+    //StopCoroutine(tumblingCoroutine);
+    //StopAllCoroutines();
     StartCoroutine(Tumble());
   }
   private void StateEnter_Disabled() {
