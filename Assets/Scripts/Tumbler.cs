@@ -130,14 +130,12 @@ public class Tumbler : MonoBehaviour {
   private void StateExit_TumblingUp() {
     number++;
     number %= numberOfSides;
-    print($"number from tumbler is: {GetNumber()} from {name}");
   }
   private void StateExit_TumblingDown() {
     number--;
     if (number < 0) {
       number += numberOfSides;
     }
-    print($"number from tumbler is: {GetNumber()} from {name}");
   }
   private void StateExit_Disabled() {
     // used enter method
